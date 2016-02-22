@@ -1,0 +1,73 @@
+body{
+    margin: 8%;
+}
+
+h1{
+    color: #194759;
+    text-align: center;
+}
+
+h2{
+    color: #194759;
+    text-align: center;
+}
+
+h3{
+    color: #194759;
+}
+nav a{
+    text-align: center;
+    display: inline-block;
+    background-color: #3E8C84;
+    width: 20%;
+}
+
+nav a:link,  nav a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 150%;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #0F2D40;
+    color: white;
+}
+.graphic{
+    margin: 0 auto;
+    display: block;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+
+}
+th {
+    background-color: #3E8C84;
+    color: white;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+tr:nth-child(even){background-color: #D8F2F0}
