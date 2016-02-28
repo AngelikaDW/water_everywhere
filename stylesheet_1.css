@@ -1,5 +1,5 @@
 body{
-    margin: 8%;
+    margin: 20%;
 }
 
 h1{
@@ -16,14 +16,20 @@ h3{
     color: #194759;
 }
 
-.nav_element{
+.nav_element, .navbar navbar-inverse{
     text-align: center;
     display: inline-block;
     background-color: #3E8C84;
     width: 20%;
     margin: 0 auto;
 }
-
+/*."navbar navbar-inverse"{
+    text-align: center;
+    display: inline-block;
+    background-color: #3E8C84;
+    width: 20%;
+    margin: 0 auto;  
+}*/
 nav a{
     text-align: center;
     display: inline-block;
