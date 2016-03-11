@@ -54,42 +54,54 @@
     </header>
 
     <main>
-    <h1> Fresh Water Drinking Fontains in Amsterdam</h1>
-    <section class= "left" >
-        <div class="img">
-        <a target="_blank" href="../imgs/happertje.jpg">
-        <img src="../imgs/happertje.jpg" alt="Happertje" width="22%"></a>
-        <div class="desc">Happertje: Refilling your bottle won't work but go ahead: take a sip!</div>
-        </div>
-
-        <div class="img">
-        <a target="_blank" href="../imgs/delta_tap.jpg">
-        <img src="../imgs/delta_tap.jpg" alt="Tap" width="22%"></a>
-        <div class="desc"> Delta-Tap: Wow that's a lot of water for your bottle!</div>
-        </div>
-
-        <img src="../imgs/water_water_everywhere.png" alt="visual of water water everywhere" title="Water Water everywhere/" class="graphic">
-    </section>
-
-    <section class ="right">
-        <hr>
-        <h2>Fresh water to tap in Amsterdam</h2>
-        <hr>
-        <p>Find the nearest water fontain using the map or in the list below!</p>
-        <p>The locations are approximate - the water fontains are either constantly ***spraying*** water or they are blocks made of stainless steel. Push the button at the top to activate the water flow. </p>
-        <h3>Keep hydrated and happily exploring Amsterdam!</h3>
-        <hr>
+    <div class="parent">
+        <h1> Fresh Water Drinking Fontains in Amsterdam</h1>
         
-        <div id="map_canvas" style="height: 600px"></div>
-        <div class="map-text">
-        <p><b>About this Map</b></p>
-        <p>
-        Fresh water drinking fountains around Amsterdam. Using Python as learned at:
-        <a href="http://www.pythonlearn.com">www.pythonlearn.com</a>.
-        </p>
+        <div class="left">
+            <div class="child-logo">
+                <img src="../imgs/water_water_everywhere.png" alt="visual of water water everywhere" title="Water Water everywhere/" class="graphic">
+            </div>
+
+            <div class="child-img">
+                <a target="_blank" href="../imgs/happertje1.jpg">
+                <img src="../imgs/happertje1.jpg" alt="Happertje"></a>
+                <div class="img-descr">
+                    <p>Happertje: Refilling your bottle won't work but go ahead: take a sip!</p>
+                </div>
+            </div>
+
+            <div class="child-img">
+                <a target="_blank" href="../imgs/delta_tap.jpg">
+                <img src="../imgs/delta_tap.jpg" alt="Tap" width="300px"></a>
+                <div class="img-descr"> 
+                     <p>Delta-Tap: Wow that's a lot of water for your bottle!</p>
+                </div>
+            </div>
         </div>
-        <hr>
-   
+
+        <div class="right">
+            <div class="child-text">
+                <hr>
+                <h2>Fresh water to tap in Amsterdam</h2>
+                <hr>
+                <p>Find the nearest water fontain using the map or in the list below!</p>
+                <p>The locations are approximate. There are two different types of water fountains:</p>
+                <ul>
+                    <li> "Delta-Taps": blocks made of stainless steel. Push the button at the top to activate the water flow.</li>
+                    <li> "Happertjes" A basic premise to sip from: just a continuous stream of water that shoots up into the air and falls back into its own basin. </li>
+                </ul>
+                
+                <h3>Keep hydrated and happily exploring Amsterdam!</h3>
+                <hr>
+            </div>
+            <div id="map_canvas" style ="height:600px"></div>
+            <div class="map-text">
+                <p>Fresh water drinking fountains around Amsterdam. <br> Using Python as learned at:<a href="http://www.pythonlearn.com">www.pythonlearn.com</a>.</p>
+            </div>
+
+        </div>    
+    
+  
 
     <section class="table">
     <table id="list of taps">
@@ -280,8 +292,8 @@
          <tr><td>&nbsp;</td><td>VONDELPARK t/o 3</td><td>van eeghenfontein</td></tr>
         </tbody></table>
     </section>
- </section>  
+    </div>
 
-
+</div>
 </main>
 </body>
