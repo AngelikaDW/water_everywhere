@@ -1,85 +1,139 @@
 body{
-    margin: 8%;
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #3E423A;
 }
 
 h1{
+    margin-top: 4%;
+    margin-left: 4%;
+    padding: 10px;
     color: #194759;
-    text-align: center;
-}
+    text-align: left;
+   }
 
 h2{
     color: #194759;
-    text-align: center;
+    text-align: left;
+    font-family: Arial, sans-serif;
 }
 
 h3{
     color: #194759;
-}
+    }
 
-.nav_element{
-    text-align: center;
-    display: inline-block;
-    background-color: #3E8C84;
-    width: 20%;
-    margin: 0 auto;
-}
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3E423A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+    }
 
-nav a{
-    text-align: center;
-    display: inline-block;
-    background-color: #3E8C84;
-    width: 20%;
-}
+li {
+    float: left;
+    }
 
-nav a:link,  nav a:visited{
+li a {
+    display: block;
     color: white;
-    padding: 14px 25px;
-    text-align: center; 
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 150%;
+}
+
+li a:hover:not(.active) {
+    background-color: #0F2D4;
+}
+
+.active {
+    background-color: #3E8C84;
+}
+
+.left{
+    margin: 5%;
     display: inline-block;
+    width: 20%;
+    padding: 5px;
 }
-nav a:hover {
-    background-color: #0F2D40;
-    color: white;
+
+.right{
+    display: inline-block;
+    width: 55%;
+    padding:5px;
+    position: absolute;
 }
-.graphic{
-    margin: 0 auto;
+
+#map_canvas{
+    max-width: 90%;
+    height: auto;
+    margin:0 auto;
+
+}
+.map-text{
+    margin: 5%;
+}
+
+.img{
+    display: block;
+    padding: 5px;
+    width: 800px;
+
+}
+
+.desc{
+    width: 28%;
+}
+
+.table{
+    width: 100%;
+    padding-top:8%;
+    width: 95%;
+    margin:0 auto;
+   /* overflow: auto;*/
+
+}
+
+/*alternative colored rows*/
+tr:nth-child(odd){
+    background-color: #F4F7D9;
+}
+
+tr:nth-child(even) {
+    background: #A4CFBE;
+}
+tbody tr{
+    opacity: 0.8;
+}
+
+table tbody, table thead
+{
     display: block;
 }
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
 
-div.img:hover {
-    border: 1px solid #777;
+table tbody 
+{
+   overflow: auto;
+   height: 600px;
 }
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-table {
-    width: 100%;
+th:first-child 
+{
+    width: 120px;
     text-align: left;
-
 }
-th {
-    background-color: #3E8C84;
-    color: white;
+th:nth-child(2){
+    width: 700px;
     text-align: left;
-    border-bottom: 1px solid #ddd; 
 }
-tr:nth-child(even){background-color: #D8F2F0}
-/*.top{
-    position: fixed;
-}*/
+th:last-child{
+    width: 200px;
+    text-align: left
+}
+
+.firstrow' th {
+    background-color: 194759;
+}
